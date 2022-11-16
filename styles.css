@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background: rgb(100,23,158);
+    background: linear-gradient(0deg, rgb(119, 89, 143) 0%, rgb(153, 152, 228) 100%);
+    font-family: 'Alkalami', serif;
+}
+
+header {
+    background-color: rgb(80, 80, 80);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 93vh;
+}
+
+#ciudad {
+    background-color: rgba(108,117,125);
+    border-color: rgb(80,80,80);
+    color: rgb(190, 190, 190);
+}
+
+#buscar-btn {
+    border-color: rgb(80,80,80);
+}
+
+#grados {
+    font-size: 3em;
+    margin: 0px;
+}
+
+#termica {
+    color: rgb(153, 152, 228) !important;
+}
+
+::selection {
+    background: rgb(119, 89, 143);
+}
+
+.form-control::placeholder {
+    color: rgb(190, 190, 190) !important;
+    opacity: 1;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+i {
+    font-size: 3em;
+}
