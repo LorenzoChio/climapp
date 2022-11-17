@@ -97,7 +97,7 @@ $(() => {
     $(".card-title").text(dia + " " + d.getDate() + " de " + mes);
 
     $("#buscar-btn").on("click", async function() {
-        await fetch("http://api.openweathermap.org/geo/1.0/direct?q=" + $("#ciudad").val() + "&limit=1&appid=e1b85edd5265ec61d8dfc9683249ed82")
+        await fetch("https://api.openweathermap.org/geo/1.0/direct?q=" + $("#ciudad").val() + "&limit=1&appid=e1b85edd5265ec61d8dfc9683249ed82")
             .then(response => response.json())
             .then(data => {
                 ciudad = data[0]['name'];
